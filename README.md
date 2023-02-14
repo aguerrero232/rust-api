@@ -15,3 +15,12 @@ why?
 In Rust, the dependency versions are specified per-project, and they are downloaded and compiled in the project build directory. There's nothing like pip install or sudo pip install because it's not needed, and every project is self-contained.
 
 Even more, the specific dependency versions are saved to a lock file (Cargo.lock), so if you ask for foo = "1.0" and get foo = "1.2" and you add that file to VCS, your collaborators will also get foo 1.2 instead of whatever the latest version is when they get the code.
+
+
+## Project Dependencies
+*  [Rust](https://www.rust-lang.org/)
+*  [PostgreSQL](https://www.postgresql.org/), sql database
+*  [Diesel](http://diesel.rs/), ORM for Rust
+*  [Actix](https://actix.rs/), web framework for Rust
+
+
