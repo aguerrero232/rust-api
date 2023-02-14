@@ -1,5 +1,6 @@
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder}; // no
 
+
 #[get("/")]
 async fn hello() -> impl Responder {
     HttpResponse::Ok().body("Hello world!")
@@ -14,6 +15,11 @@ async fn manual_hello() -> impl Responder {
     HttpResponse::Ok().body("Hey there!")
 }
 
+#[get("/")]
+async fn index() -> impl Responder {
+    HttpResponse::Ok().body("Hello world!")
+}
+
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
@@ -22,8 +28,7 @@ async fn main() -> std::io::Result<()> {
             .service(echo)
             .route("/hey", web::get().to(manual_hello))
     })
-    .bind(("localhost", 8080))?
+    .bind(("0.0.0.0", 8080))?
     .run()
     .await
 }
-
