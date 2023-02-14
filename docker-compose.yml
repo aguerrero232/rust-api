@@ -1,26 +1,29 @@
 version: '3.9'
 
-services:
-  db:
-    image: postgres:15.1
-    container_name: db
-    restart: always
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
+x-shared-environment: &shared-environment
+  - POSTGRES_DB="postgres"
+  - POSTGRES_USER="postgres"
+  - POSTGRES_PASSWORD="postgres"
 
+services:
+  postgres:
+    image: postgres:15.1
+    restart: always
+    environment: *shared-environment
     expose:
       - "5432"
     ports:
       - 5432:5432
     volumes:
-      - apiDB:/var/lib/postgresql/data
-
+      - pkmdb:/var/lib/postgresql/data
   app:
     build: .
-    container_name: app
-    command: bash -c "cargo run"
+    command: sh -c "cargo run"
+    environment: 
+      - <<*shared-environment
+      - DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_HOST=postgres
     volumes:
       - .:/app
     ports:
@@ -28,7 +31,7 @@ services:
     expose:
       - "8080"
     depends_on:
-      - db
+      - postgres
   
 volumes:
-  apiDB: {}
+  pkmdb: {}
