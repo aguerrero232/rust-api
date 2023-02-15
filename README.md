@@ -115,6 +115,8 @@ why?
     docker-compose up
     ```
 
+* you can now access the app at `localhost:8080` with a postgres database running at `localhost:5432`
+
 <!-- ROADMAP -->
 ## Roadmap
 
