@@ -202,7 +202,7 @@ Guerrero Ariel - arielguerrero1012@gmail.com
 [issues-url]: https://github.com/aguerrero232/rust-api/issues
 
 [license-shield]: https://img.shields.io/github/license/aguerrero232/rust-api.svg?style=for-the-badge
-[license-url]: https://github.com/aguerrero232/rust-api/blob/master/LICENSE.txt
+[license-url]: https://github.com/aguerrero232/rust-api/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/arielguerrero1012/
 [product-screenshot]: images/screenshot.png
