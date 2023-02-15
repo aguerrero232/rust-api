@@ -26,13 +26,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#startup">Running the App</a></li>
-      </ul>
-    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -57,8 +50,6 @@ Simple Rust API template, I built to learn Rust and the Rust ecosystem.
 - did I mention it's fast?
 
 
-
-
 ### **Built With**
 
 </br>
@@ -72,49 +63,6 @@ Simple Rust API template, I built to learn Rust and the Rust ecosystem.
 [![Docker-shield]][Docker-url]
 [![Docker-Compose-shield]][Docker-Compose-url]
 
-
-<!-- GETTING STARTED -->
-## **Getting Started**
-
-### ***Prerequisites***
-
-* *Project Dependencies*
-  *  [Rust](https://www.rust-lang.org/), main programming language for the application
-  *  [PostgreSQL](https://www.postgresql.org/), sql database
-  *  [Diesel](http://diesel.rs/), ORM for Rust
-  *  [Actix](https://actix.rs/), web framework for Rust
-  * [cargo-watch](https://github.com/watchexec/cargo-watch), watches for changes in code during development
-
-* *Development Dependencies*
-    *  [Docker](https://www.docker.com/), containerization platform
-    *  [Docker Compose](https://docs.docker.com/compose/), tool for defining and running multi-container Docker applications
-
-### ***Startup***
-
-* clone the repository
-    ```sh
-    git clone https://github.com/aguerrero232/rust-api.git rust-api
-    ```
-
-  * change into the projects directory
-
-      ```sh
-      cd rust-api
-      ```
-
-* build the projects app container
-
-    ```sh
-    docker-compose build
-    ```
-
-* run the projects containers
-
-    ```sh
-    docker-compose up
-    ```
-
-* you can now access the app at `localhost:8080` with a postgres database running at `localhost:5432`
 
 <!-- ROADMAP -->
 ## **Roadmap**
