@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -151,7 +150,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Guerrero Ariel - arielguerrero1012@gmail.com
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 
 
