@@ -59,8 +59,6 @@ why?
 - did I mention it's fast?
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### **Built With**
@@ -75,7 +73,7 @@ why?
 [![Postgres-shield]][Postgres-url]
 [![Docker-shield]][Docker-url]
 [![Docker-Compose-shield]][Docker-Compose-url]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## **Getting Started**
@@ -118,15 +116,10 @@ why?
     docker-compose up
     ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/aguerrero232/rust-api) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -143,16 +136,13 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
