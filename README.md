@@ -39,16 +39,12 @@
 <!-- ABOUT THE PROJECT -->
 ## **About The Project**
 
-<br>
-
 Simple Rust API template, I built to learn Rust and the Rust ecosystem.
-
 *why*?
 - to learn Rust
 - Rust is fast
 - no need for a virtual environment
 - did I mention it's fast?
-
 
 ### **Built With**
 
