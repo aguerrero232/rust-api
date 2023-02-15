@@ -1,13 +1,11 @@
 <a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-<!-- [![MIT License][license-shield]][license-url] -->
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-
+[![MIT License][license-shield]][license-url]
+[![Contributors][contributors-shield]][contributors-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -18,10 +16,9 @@
     </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><strong>Table of Contents</strong></summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -44,14 +41,16 @@
   </ol>
 </details>
 
-
+<br>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## **About The Project**
+
+<br>
 
 Simple Rust API template, I built to learn Rust and the Rust ecosystem.
 
-why?
+*why*?
 - to learn Rust
 - Rust is fast
 - no need for a virtual environment
@@ -77,31 +76,31 @@ why?
 <!-- GETTING STARTED -->
 ## **Getting Started**
 
-### Prerequisites
+### ***Prerequisites***
 
-* Project Dependencies
+* *Project Dependencies*
   *  [Rust](https://www.rust-lang.org/), main programming language for the application
   *  [PostgreSQL](https://www.postgresql.org/), sql database
   *  [Diesel](http://diesel.rs/), ORM for Rust
   *  [Actix](https://actix.rs/), web framework for Rust
   * [cargo-watch](https://github.com/watchexec/cargo-watch), watches for changes in code during development
 
-* Development Dependencies
+* *Development Dependencies*
     *  [Docker](https://www.docker.com/), containerization platform
     *  [Docker Compose](https://docs.docker.com/compose/), tool for defining and running multi-container Docker applications
 
-### Startup
+### ***Startup***
 
-* clone the repo
+* clone the repository
     ```sh
     git clone https://github.com/aguerrero232/rust-api.git rust-api
     ```
 
-* change into the projects directory
+  * change into the projects directory
 
-    ```sh
-    cd rust-api
-    ```
+      ```sh
+      cd rust-api
+      ```
 
 * build the projects app container
 
@@ -118,13 +117,12 @@ why?
 * you can now access the app at `localhost:8080` with a postgres database running at `localhost:5432`
 
 <!-- ROADMAP -->
-## Roadmap
+## **Roadmap**
 
 See the [open issues](https://github.com/aguerrero232/rust-api) for a full list of proposed features (and known issues).
 
-
 <!-- CONTRIBUTING -->
-## Contributing
+## **Contributing**
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -137,17 +135,14 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
-
 <!-- LICENSE -->
-## License
+## **License**
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## **Contact**
 
 Guerrero Ariel - arielguerrero1012@gmail.com
 
