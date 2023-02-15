@@ -7,8 +7,7 @@ edition = "2021"
 authors = ["Guerrero Ariel <arielguerrero1012@gmail.com>"]
 
 [dependencies]
-actix-web = { version = "4", features = ["openssl"] }
-openssl = { version = "0.10" }
+actix-web = "4"
 diesel = { version = "2.0.0", features = ["postgres"] }
 dotenvy = {version = "0.15.6", features = ["cli"]}
 serde = { version = "1.0.130", features = ["derive"] } 
