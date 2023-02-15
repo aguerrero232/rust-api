@@ -144,13 +144,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## **Contact**
 
-Guerrero Ariel - arielguerrero1012@gmail.com
-
+Guerrero, Ariel - arielguerrero1012@gmail.com
 
 <p align="right"><a href="#readme-top">🔝</a></p>
-
-<!-- something -->
-
 
 <!-- ACKNOWLEDGMENTS -->
 <!-- ## Acknowledgments -->

@@ -19,9 +19,9 @@ sleep 10;
 diesel setup;
 
 if [ $enable_dev_mode = false ]; then
-    # run diesel migration
+    # run cargo start to compile and run the project
     cargo start;
 else
-    # run cargo watch to compile and run the project
+    # run cargo watch to compile and run the project, and watch for changes in the source code to recompile and rerun the project automatically when changes are detected
     cargo watch -x run;
 fi
