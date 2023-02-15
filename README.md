@@ -27,6 +27,8 @@
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <!-- link for docs/README.md -->
+    <li><a href="docs/README.md">Documentation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
