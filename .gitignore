@@ -1,1 +1,149 @@
-/target
+# rust gitignore
+Cargo.lock
+target/
+
+# python gitignore
+*.egg-info/
+dist/
+build/
+*.pyc
+__pycache__/
+
+# node gitignore
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# vscode gitignore
+.vscode/
+
+# visual studio gitignore
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macos gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# windows gitignore
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# linux gitignore
+*~
+
+# virtualenv gitignore
+venv/
+
+# virtualenvwrapper gitignore
+.venv/
+
+# ipython notebook gitignore
+.ipynb_checkpoints
+
+# pyenv gitignore
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv gitignore
+.env
+
+# virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+# http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+# packages
+# *.egg
+# *.egg-info
+dist
+build
+eggs
+.eggs
+lib
+lib64
+parts
+sdist
+var
+*.egg
+*.egg-info
+dist
+build
+eggs
+.eggs
+lib
+lib64
+parts
+sdist
+var
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+# http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+# packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+.eggs
+lib
+lib

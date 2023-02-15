@@ -6,10 +6,14 @@ EXPOSE 8080
 WORKDIR /app
 
 # copy necessary files for building/running the application
-COPY *.toml .env ./
+COPY *.toml start-container.sh ./
 COPY src ./src
+COPY data ./data
+
+RUN ls -larth
 
 # setup the app
 RUN cargo install --path .
 RUN cargo build
 RUN cargo install diesel_cli --no-default-features --features postgres
+RUN cargo install cargo-watch

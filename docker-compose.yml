@@ -1,29 +1,35 @@
 version: '3.9'
 
+x-shared-environment: &shared-environment
+  POSTGRES_DB: postgres
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+
 services:
   postgres:
+    environment: *shared-environment
     image: postgres:15.1
     expose:
       - "5432"
     ports:
       - 5432:5432
-    restart: always
-    env_file:
-      - .env
     volumes:
       - pkmdb:/var/lib/postgresql/data
+    restart: always
 
   app:
+    environment: 
+      - <<*shared-environment
+      - RUST_LOG=info
+      - RUST_BACKTRACE=1
+      - DATABASE_URL=postgres://postgres:postgres@postgres/postgres
+      - ENV_HOST=0.0.0.0
     build: .
     expose:
       - "8080"
     ports:
       - 8080:8080
-    command: 
-      - sh -c "diesel setup"
-      - sh -c "cargo run"
-    env_file:
-      - .env
+    command: bash start-container.sh
     volumes:
       - .:/app
     depends_on:
