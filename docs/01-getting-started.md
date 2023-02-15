@@ -52,4 +52,8 @@
 
 * you can now access the app at `localhost:8080` with a postgres database running at `localhost:5432`
 
-[↩️](README.md)
+<br>
+
+<p align="right"><a href="#readme-top">🔝</a></p>
+
+[↩️](README.md) 

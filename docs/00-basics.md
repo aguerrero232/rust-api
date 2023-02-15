@@ -201,4 +201,8 @@ Traits are similar to a feature often called interfaces in other languages, alth
     }
 ```
 
+<br>
+
+<p align="right"><a href="#readme-top">🔝</a></p>
+
 [↩️](README.md)
